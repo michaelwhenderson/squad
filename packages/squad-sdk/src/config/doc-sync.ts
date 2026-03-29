@@ -74,6 +74,17 @@ export function syncRosterToAgentDoc(
   const startIdx = docContent.indexOf(ROSTER_START);
   const endIdx = docContent.indexOf(ROSTER_END);
 
+  // Guard: orphaned marker (only one present) or reversed markers
+  if (
+    (startIdx !== -1) !== (endIdx !== -1) ||
+    (startIdx !== -1 && endIdx !== -1 && startIdx >= endIdx)
+  ) {
+    console.warn(
+      '[doc-sync] Roster markers are missing, orphaned, or reversed — skipping replacement to avoid corruption',
+    );
+    return docContent;
+  }
+
   if (startIdx !== -1 && endIdx !== -1) {
     return (
       docContent.slice(0, startIdx) +

@@ -542,4 +542,48 @@ describe('syncRosterToAgentDoc', () => {
     expect(result).toContain('## Team Mode');
     expect(result).toContain('Important content here.');
   });
+
+  it('should skip replacement and return doc unchanged when markers are reversed', () => {
+    const doc = [
+      '# Squad',
+      '',
+      '<!-- SQUAD:ROSTER_END -->',
+      '_bad roster_',
+      '<!-- SQUAD:ROSTER_START -->',
+      '',
+      '## Team Mode',
+    ].join('\n');
+
+    const result = syncRosterToAgentDoc(doc, members);
+    // Must return the original document unchanged
+    expect(result).toBe(doc);
+  });
+
+  it('should skip replacement when only the start marker is present (orphaned)', () => {
+    const doc = [
+      '# Squad',
+      '',
+      '<!-- SQUAD:ROSTER_START -->',
+      '_orphaned_',
+      '',
+      '## Team Mode',
+    ].join('\n');
+
+    const result = syncRosterToAgentDoc(doc, members);
+    expect(result).toBe(doc);
+  });
+
+  it('should skip replacement when only the end marker is present (orphaned)', () => {
+    const doc = [
+      '# Squad',
+      '',
+      '_orphaned_',
+      '<!-- SQUAD:ROSTER_END -->',
+      '',
+      '## Team Mode',
+    ].join('\n');
+
+    const result = syncRosterToAgentDoc(doc, members);
+    expect(result).toBe(doc);
+  });
 });
