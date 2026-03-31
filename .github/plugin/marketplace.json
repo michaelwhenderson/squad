@@ -1,0 +1,83 @@
+{
+  "name": "squad-marketplace",
+  "owner": {
+    "name": "Brady Gaster",
+    "url": "https://github.com/bradygaster"
+  },
+  "metadata": {
+    "description": "Official Squad plugin marketplace — curated sub-plugins for the Squad multi-agent runtime",
+    "version": "0.9.1"
+  },
+  "plugins": [
+    {
+      "name": "squad-core",
+      "description": "Full Squad coordinator agent and all team skills. The complete Squad experience in one plugin.",
+      "version": "0.9.1",
+      "source": "plugins/squad-core",
+      "author": { "name": "Brady Gaster", "url": "https://github.com/bradygaster" },
+      "license": "MIT",
+      "keywords": ["squad", "multi-agent", "coordinator", "copilot"],
+      "category": "productivity"
+    },
+    {
+      "name": "squad-agents",
+      "description": "All 20 named Squad team member agents: Flight (Lead), EECOM (Core Dev), FIDO (QA), CAPCOM (SDK), CONTROL (TypeScript), and more.",
+      "version": "0.9.1",
+      "source": "plugins/squad-agents",
+      "author": { "name": "Brady Gaster", "url": "https://github.com/bradygaster" },
+      "license": "MIT",
+      "keywords": ["squad", "agents", "team", "multi-agent"],
+      "category": "productivity"
+    },
+    {
+      "name": "squad-team-workflow",
+      "description": "Team workflow and governance skills: agent collaboration patterns, conduct rules, reviewer protocol, architectural proposals, history hygiene, and more.",
+      "version": "0.9.1",
+      "source": "plugins/squad-team-workflow",
+      "author": { "name": "Brady Gaster", "url": "https://github.com/bradygaster" },
+      "license": "MIT",
+      "keywords": ["squad", "workflow", "governance", "team"],
+      "category": "productivity"
+    },
+    {
+      "name": "squad-release",
+      "description": "Release and versioning skills: release process checklist, semver versioning policy, CI validation gates, and git workflow.",
+      "version": "0.9.1",
+      "source": "plugins/squad-release",
+      "author": { "name": "Brady Gaster", "url": "https://github.com/bradygaster" },
+      "license": "MIT",
+      "keywords": ["squad", "release", "versioning", "ci-cd"],
+      "category": "devops"
+    },
+    {
+      "name": "squad-security",
+      "description": "Security and compliance skills: secret handling rules, GitHub multi-account auth isolation, and PII/credential hygiene.",
+      "version": "0.9.1",
+      "source": "plugins/squad-security",
+      "author": { "name": "Brady Gaster", "url": "https://github.com/bradygaster" },
+      "license": "MIT",
+      "keywords": ["squad", "security", "secrets", "compliance"],
+      "category": "security"
+    },
+    {
+      "name": "squad-orchestration",
+      "description": "Orchestration skills: per-agent model selection, client compatibility, distributed mesh coordination, economy mode, session recovery, and personal squad setup.",
+      "version": "0.9.1",
+      "source": "plugins/squad-orchestration",
+      "author": { "name": "Brady Gaster", "url": "https://github.com/bradygaster" },
+      "license": "MIT",
+      "keywords": ["squad", "orchestration", "model-selection", "distributed"],
+      "category": "productivity"
+    },
+    {
+      "name": "squad-devrel",
+      "description": "Developer relations and community skills: external communications workflow, tone enforcement, and PR screenshot capture.",
+      "version": "0.9.1",
+      "source": "plugins/squad-devrel",
+      "author": { "name": "Brady Gaster", "url": "https://github.com/bradygaster" },
+      "license": "MIT",
+      "keywords": ["squad", "devrel", "community", "communications"],
+      "category": "productivity"
+    }
+  ]
+}

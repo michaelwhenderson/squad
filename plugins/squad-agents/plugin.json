@@ -1,0 +1,15 @@
+{
+  "name": "squad-agents",
+  "description": "All 20 named Squad team member agents as Copilot CLI agents. Includes Flight (Lead), EECOM (Core Dev), FIDO (Quality), CAPCOM (SDK), CONTROL (TypeScript), Procedures (Prompt Engineer), Booster (CI/CD), GNC (Node.js Runtime), Network (Distribution), RETRO (Security), INCO (CLI UX), GUIDO (VS Code), Telemetry (Observability), VOX (REPL), DSKY (TUI), Sims (E2E), Handbook (SDK Usability), PAO (DevRel), Scribe (Logger), and Surgeon (Release).",
+  "version": "0.9.1",
+  "author": {
+    "name": "Brady Gaster",
+    "url": "https://github.com/bradygaster"
+  },
+  "homepage": "https://github.com/bradygaster/squad#readme",
+  "repository": "https://github.com/bradygaster/squad",
+  "license": "MIT",
+  "keywords": ["squad", "agents", "team", "multi-agent", "copilot"],
+  "category": "productivity",
+  "agents": "plugins/squad-agents/agents/"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "squad-team-workflow",
+  "description": "Team workflow and governance skills for Squad-powered projects: agent collaboration patterns, conduct rules, reviewer lockout protocol, architectural proposal process, history hygiene, init flow, cross-squad coordination, and work monitoring.",
+  "version": "0.9.1",
+  "author": {
+    "name": "Brady Gaster",
+    "url": "https://github.com/bradygaster"
+  },
+  "homepage": "https://github.com/bradygaster/squad#readme",
+  "repository": "https://github.com/bradygaster/squad",
+  "license": "MIT",
+  "keywords": ["squad", "workflow", "governance", "team", "collaboration"],
+  "category": "productivity",
+  "skills": [
+    ".copilot/skills/agent-collaboration",
+    ".copilot/skills/agent-conduct",
+    ".copilot/skills/history-hygiene",
+    ".copilot/skills/reviewer-protocol",
+    ".copilot/skills/reskill",
+    ".copilot/skills/architectural-proposals",
+    ".copilot/skills/init-mode",
+    ".squad/skills/cross-squad",
+    ".squad/skills/ralph-two-pass-scan"
+  ]
+}

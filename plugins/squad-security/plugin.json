@@ -1,0 +1,19 @@
+{
+  "name": "squad-security",
+  "description": "Security and compliance skills for Squad-powered projects: secret handling rules (never write secrets to committed files), multi-account GitHub auth isolation, and credential hygiene patterns.",
+  "version": "0.9.1",
+  "author": {
+    "name": "Brady Gaster",
+    "url": "https://github.com/bradygaster"
+  },
+  "homepage": "https://github.com/bradygaster/squad#readme",
+  "repository": "https://github.com/bradygaster/squad",
+  "license": "MIT",
+  "keywords": ["squad", "security", "secrets", "compliance", "credentials"],
+  "category": "security",
+  "skills": [
+    ".copilot/skills/secret-handling",
+    ".copilot/skills/github-multi-account",
+    ".squad/skills/gh-auth-isolation"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "squad-devrel",
+  "description": "Developer relations and community skills: external communications scanning and drafting workflow (with human review gate), tone enforcement for community responses, and PR screenshot capture for visual review.",
+  "version": "0.9.1",
+  "author": {
+    "name": "Brady Gaster",
+    "url": "https://github.com/bradygaster"
+  },
+  "homepage": "https://github.com/bradygaster/squad#readme",
+  "repository": "https://github.com/bradygaster/squad",
+  "license": "MIT",
+  "keywords": ["squad", "devrel", "community", "communications", "pr"],
+  "category": "productivity",
+  "skills": [
+    ".squad/skills/external-comms",
+    ".squad/skills/humanizer",
+    ".squad/skills/pr-screenshots"
+  ]
+}
