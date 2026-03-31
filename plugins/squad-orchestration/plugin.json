@@ -1,0 +1,23 @@
+{
+  "name": "squad-orchestration",
+  "description": "Orchestration and runtime skills: 4-layer per-agent model selection hierarchy, client compatibility and adaptive spawning, distributed mesh coordination across machines, economy mode for cost-optimized model selection, interrupted session recovery, and personal squad setup.",
+  "version": "0.9.1",
+  "author": {
+    "name": "Brady Gaster",
+    "url": "https://github.com/bradygaster"
+  },
+  "homepage": "https://github.com/bradygaster/squad#readme",
+  "repository": "https://github.com/bradygaster/squad",
+  "license": "MIT",
+  "keywords": ["squad", "orchestration", "model-selection", "distributed", "runtime"],
+  "category": "productivity",
+  "skills": [
+    "../../.copilot/skills/model-selection",
+    "../../.copilot/skills/client-compatibility",
+    "../../.copilot/skills/distributed-mesh",
+    "../../.squad/skills/economy-mode",
+    "../../.squad/skills/session-recovery",
+    "../../.squad/skills/cross-machine-coordination",
+    "../../.squad/skills/personal-squad"
+  ]
+}

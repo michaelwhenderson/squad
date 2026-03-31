@@ -1,0 +1,20 @@
+{
+  "name": "squad-release",
+  "description": "Release and versioning skills earned from real Squad incidents: step-by-step release checklist, strict semver versioning policy (prevents prerelease version leaks), CI validation gate patterns, and the Squad git branching workflow.",
+  "version": "0.9.1",
+  "author": {
+    "name": "Brady Gaster",
+    "url": "https://github.com/bradygaster"
+  },
+  "homepage": "https://github.com/bradygaster/squad#readme",
+  "repository": "https://github.com/bradygaster/squad",
+  "license": "MIT",
+  "keywords": ["squad", "release", "versioning", "semver", "ci-cd"],
+  "category": "devops",
+  "skills": [
+    "../../.copilot/skills/release-process",
+    "../../.copilot/skills/ci-validation-gates",
+    "../../.copilot/skills/git-workflow",
+    "../../.squad/skills/versioning-policy"
+  ]
+}
