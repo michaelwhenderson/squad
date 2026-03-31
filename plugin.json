@@ -1,0 +1,16 @@
+{
+  "name": "squad",
+  "description": "Squad — Programmable multi-agent runtime for GitHub Copilot. Adds a full team of AI specialists to any project: coordinator, core engineers, QA, security, devrel, and more.",
+  "version": "0.9.1",
+  "author": {
+    "name": "Brady Gaster",
+    "url": "https://github.com/bradygaster"
+  },
+  "homepage": "https://github.com/bradygaster/squad#readme",
+  "repository": "https://github.com/bradygaster/squad",
+  "license": "MIT",
+  "keywords": ["multi-agent", "copilot", "squad", "team", "sdk", "orchestration"],
+  "category": "productivity",
+  "agents": ".github/agents/",
+  "skills": [".copilot/skills/", ".squad/skills/"]
+}
